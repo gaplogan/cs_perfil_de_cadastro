@@ -56,7 +56,7 @@ namespace PerfilCadastro
                 escolaridade = Escolaridade.Tecnico
             };
 
-            Console.WriteLine("### CADASTRO CLIENTES ###");
+            Console.WriteLine("### CADASTRO ###");
             Console.WriteLine("------------------------------------");
             Console.WriteLine();
             Console.WriteLine(p1.nome);
@@ -71,7 +71,7 @@ namespace PerfilCadastro
             Console.ReadKey();
             Console.Clear();
 
-            Console.WriteLine("### CADASTRO CLIENTES ###");
+            Console.WriteLine("### CADASTRO ###");
             Console.WriteLine("------------------------------------");
             Console.WriteLine();
             Console.WriteLine(p2.nome);
@@ -86,7 +86,7 @@ namespace PerfilCadastro
             Console.ReadKey();
             Console.Clear();
 
-            Console.WriteLine("### CADASTRO CLIENTES ###");
+            Console.WriteLine("### CADASTRO ###");
             Console.WriteLine("------------------------------------");
             Console.WriteLine();
             Console.WriteLine(p3.nome);
