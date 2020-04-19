@@ -57,6 +57,7 @@ namespace PerfilCadastro
             };
 
             Console.WriteLine("### CADASTRO CLIENTES ###");
+            Console.WriteLine("------------------------------------");
             Console.WriteLine();
             Console.WriteLine(p1.nome);
             Console.WriteLine(p1.idade);
@@ -65,6 +66,14 @@ namespace PerfilCadastro
             Console.WriteLine(p1.filiacao.Pai);
             Console.WriteLine(p1.escolaridade);
             Console.WriteLine("------------------------------------");
+
+            Console.WriteLine("Pressione uma tecla para exibir proximo...");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("### CADASTRO CLIENTES ###");
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine();
             Console.WriteLine(p2.nome);
             Console.WriteLine(p2.idade);
             Console.WriteLine(p2.sexo);
@@ -72,12 +81,23 @@ namespace PerfilCadastro
             Console.WriteLine(p2.filiacao.Pai);
             Console.WriteLine(p2.escolaridade);
             Console.WriteLine("------------------------------------");
+
+            Console.WriteLine("Pressione uma tecla para exibir proximo...");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("### CADASTRO CLIENTES ###");
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine();
             Console.WriteLine(p3.nome);
             Console.WriteLine(p3.idade);
             Console.WriteLine(p3.sexo);
             Console.WriteLine(p3.filiacao.Mae);
             Console.WriteLine(p3.filiacao.Pai);
             Console.WriteLine(p3.escolaridade);
+            Console.WriteLine("------------------------------------");
+
+            Console.WriteLine("Pressione uma tecla para finalizar...");
             Console.ReadKey();
         }
     }
